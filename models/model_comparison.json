@@ -1,0 +1,47 @@
+[
+  {
+    "model_name": "Random Forest Regressor",
+    "test_r2": 0.8732,
+    "mae": 1.044,
+    "rmse": 1.613,
+    "cv_r2_mean": 0.86,
+    "cv_r2_std": 0.0467,
+    "xai_support": "Native TreeSHAP O(TLD\u00b2)"
+  },
+  {
+    "model_name": "Gradient Boosting Regressor",
+    "test_r2": 0.858,
+    "mae": 1.06,
+    "rmse": 1.706,
+    "cv_r2_mean": 0.8659,
+    "cv_r2_std": 0.0518,
+    "xai_support": "Native TreeSHAP O(TLD\u00b2)"
+  },
+  {
+    "model_name": "Decision Tree Regressor",
+    "test_r2": 0.8305,
+    "mae": 1.165,
+    "rmse": 1.865,
+    "cv_r2_mean": 0.8455,
+    "cv_r2_std": 0.0511,
+    "xai_support": "Native TreeSHAP O(TLD\u00b2)"
+  },
+  {
+    "model_name": "Ridge Regression",
+    "test_r2": 0.7823,
+    "mae": 1.339,
+    "rmse": 2.113,
+    "cv_r2_mean": 0.8182,
+    "cv_r2_std": 0.0331,
+    "xai_support": "Linear Kernel"
+  },
+  {
+    "model_name": "Linear Regression",
+    "test_r2": 0.7822,
+    "mae": 1.339,
+    "rmse": 2.113,
+    "cv_r2_mean": 0.8181,
+    "cv_r2_std": 0.0331,
+    "xai_support": "Linear Kernel"
+  }
+]
